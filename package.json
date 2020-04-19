@@ -1,0 +1,23 @@
+{
+  "name": "node-coinsbit",
+  "version": "1.0.0",
+  "description": "coinsbit node.js library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "coinsbit"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yuma300/node-coinsbit"
+  },
+  "author": "yuma300",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "latest",
+    "request": "latest",
+    "request-promise": "latest"
+  }
+}
