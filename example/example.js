@@ -1,4 +1,4 @@
-var coinsbit = require("../");
+var coinsbit = require("../index.js");
 
 var api = coinsbit.publicApi();
 api.getOrderBook("ETH_BTC").then(console.log);
